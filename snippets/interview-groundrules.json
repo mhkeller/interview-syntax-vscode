@@ -1,0 +1,27 @@
+{
+	"On the record": {
+		"prefix": ["g", "on"],
+		"body": [
+			"`on",
+			"$1",
+			"`"
+		]
+	},
+	"On background": {
+		"prefix": ["g", "bg"],
+		"body": [
+			"`bg",
+			"$1",
+			"`"
+		]
+	},
+	"Off the record": {
+		"prefix": ["g", "of"],
+		"body": [
+			"`off",
+			"$1",
+			"`"
+		]
+	}
+}
+
