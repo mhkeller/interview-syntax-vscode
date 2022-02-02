@@ -67,10 +67,6 @@ cd ~/.vscode/extensions && git clone --depth 1 https://github.com/mhkeller/inter
 
 > On Windows, change `~/.vscode/extensions` to `%USERPROFILE%\.vscode\extensions`
 
-### Installing snippets
-
-After installatino, go to `Code > Preferences > User Snippets`. Scroll down until you see `Interview`. Click it. Paste the contents of [snippets/interview.json](snippets/interview.json) into that file and save.
-
 ### Other formatting
 
 Here's an example of the other types of formatting you can use.
