@@ -87,7 +87,7 @@ Add this to your settings.json
 
 ```json
 "autoSnippet.snippets": [
-		{ "language": "interview", "snippet": "Interview template" }
+  { "language": "interview", "snippet": "Interview template" }
 ]
 ```
 
