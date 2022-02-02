@@ -79,7 +79,7 @@ If you want to help that would be greatly appreciated!
 
 ## Helpful extensions
 
-#### Auto Snippet - [link](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.auto-snippet)
+### Auto Snippet - [link](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.auto-snippet)
 
 Automatically inserts the interview template when you create an interview file.
 
@@ -91,7 +91,7 @@ Add this to your settings.json
 ]
 ```
 
-#### Todo Tree - [link](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+### Todo Tree - [link](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
 
 Pulls out TODO items and lists so you can make reminders to yourself during an interview. For example, this unchecked task will become highlighted:
 
@@ -103,6 +103,6 @@ I have a document I can send it to you.
 - [ ] They'll send a document
 ```
 
-#### Spell checker
+### Misc
 
-There are a few of them out there! Pick one that works for you!
+A spell checker is also handy. There are a few of them out there! Pick one that works for you!
