@@ -3,7 +3,7 @@
 		"prefix": [
 			"interview"
 		],
-		"scope": "interview,vw"
+		"scope": "interview,vw",
 		"body": [
 			"Date: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
 			"Name: $1",

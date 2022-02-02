@@ -43,12 +43,6 @@ This is off the record
 `
 ```
 
-### Export to Word document
-
-If you install Pandoc, you can also automatically convert your `.interview` files into Word documents by running <kbd>shift</kbd> <kbd>cmd</kbd> + <kbd>b</kbd>. The output doesn't handle single line breaks super well so if you're exporting, you might want to add an extra line break between lines of text.
-
-You can install pandoc from its [GitHub page](https://github.com/jgm/pandoc/releases/tag/1.13.2). Scroll all the way to the bottom to select your operating system. Or, if you have [homebrew](http://brew.sh) installed, you can run `brew install pandoc`.
-
 ### Shortcuts
 
 ###### Template - `interview` + <kbd>tab</kbd>
@@ -69,14 +63,50 @@ This is a general Sublime Text shortcut and is enbaled by default for `interview
 
 ## Installation
 
-Copy the files in the `Interview` folder into your VS Code user packages directory. Open this directory by going to the menu bar `Sublime Text > Preferences... > Browse Packages...` and then open the `User` foler.
+This can be improved but for now, clone it into your VS Code extensions manually then restart VS Code.
 
-## Contributing
+```
+cd ~/.vscode/extensions && git clone --depth 1 https://github.com/mhkeller/interview-syntax-vscode.git mhkeller.interview-syntax-vscode-1.0.0
+```
 
-If you want to help that would be greatly appreciated! 
+> On Windows, change `~/.vscode/extensions` to `%USERPROFILE%\.vscode\extensions`
+
+### Installing snippets
+
+After installatino, go to `Code > Preferences > User Snippets`. Scroll down until you see `Interview`. Click it. Paste the contents of [snippets/interview.json](snippets/interview.json) into that file and save.
 
 ### Other formatting
 
 Here's an example of the other types of formatting you can use.
 
 ![](https://raw.githubusercontent.com/mhkeller/interview-syntax-vscode/master/assets/all-formatting.png)
+
+## Contributing
+
+If you want to help that would be greatly appreciated! 
+
+## Helpful extensions
+
+#### Auto Snippet - [link](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.auto-snippet)
+
+Automatically inserts the interview template when you create an interview file.
+
+Add this to your settings.json
+
+```json
+"autoSnippet.snippets": [
+		{ "language": "interview", "snippet": "Interview template" }
+]
+```
+
+#### Todo Tree - [link](https://marketplace.visualstudio.com/items?itemName=Gruntfuggly.todo-tree)
+
+Pulls out TODO items and lists so you can make reminders to yourself during an interview. For example, this unchecked task will become highlighted:
+
+```
+// Where can I read more about that
+
+I have a document I can send it to you.
+
+- [ ] They'll send a document
+```

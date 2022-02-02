@@ -30,7 +30,7 @@
     "snippets": [
       {
         "language": "interview",
-        "path": "./snippets/interview-groundrules.json"
+        "path": "./snippets/interview.json"
       }
     ]
   }
