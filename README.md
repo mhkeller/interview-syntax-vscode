@@ -57,10 +57,6 @@ This will start a question for you by writing out `// `. This is useful if you t
 
 This will start a block comment (a comment that spans mutliple lines) by writing out `/* */` and placing your cursor in the middle. Same as the question shortcut, you can highlight multiple lines and turn them into a comment block with this shortcut.
 
-###### Spell check — <kbd>F6</kbd>
-
-This is a general Sublime Text shortcut and is enbaled by default for `interview` files. If it doesn't load, on a Macbook, trigger this by holding down the <kbd>fn</kbd> key before pressing <kbd>F6</kbd>, otherwise it will just change the keyboard brightness.
-
 ## Installation
 
 This can be improved but for now, clone it into your VS Code extensions manually then restart VS Code.
@@ -110,3 +106,7 @@ I have a document I can send it to you.
 
 - [ ] They'll send a document
 ```
+
+#### Spell checker
+
+There are a few of them out there! Pick one that works for you!
