@@ -1,0 +1,69 @@
+{
+	"Interview template": {
+		"prefix": [
+			"interview"
+		],
+		"scope": "interview,vw"
+		"body": [
+			"Date: $CURRENT_MONTH_NAME $CURRENT_DATE, $CURRENT_YEAR",
+			"Name: $1",
+			"Title: $2",
+			"Org: $3",
+			"Email: $4",
+			"Phone: $5",
+			"(Age:) ",
+			"Groundrules (unless otherwise noted): $6On the record / Background / Off the record",
+			"Referred by: ",
+			"---",
+			"",
+			"",
+			"/* QUESTIONS */",
+			"",
+			"// Type_question_one_here",
+			"",
+			"",
+			"// Question_can_go_here",
+			"",
+			"",
+			"// Is there anyone else you recommend I speak to?",
+			"",
+			"",
+			"",
+			"/* NOTES */",
+			"",
+			"// I will follow up on ____.",
+			"",
+			"",
+			"// They will send me ____ by ____.",
+			""
+		]
+	},
+	"On the record": {
+		"prefix": ["g", "on"],
+		"scope": "interview,vw",
+		"body": [
+			"`on",
+			"$1",
+			"`"
+		]
+	},
+	"On background": {
+		"prefix": ["g", "bg"],
+		"scope": "interview,vw",
+		"body": [
+			"`bg",
+			"$1",
+			"`"
+		]
+	},
+	"Off the record": {
+		"prefix": ["g", "of"],
+		"scope": "interview,vw",
+		"body": [
+			"`off",
+			"$1",
+			"`"
+		]
+	}
+}
+
