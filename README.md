@@ -1,7 +1,7 @@
 Interview Syntax
 ===
 
-A VS Code syntax definition and highlighter meant to help reporters as they conduct interviews.
+A VS Code syntax definition and highlighter meant to help reporters as they conduct interviews. If you're looking for the original version made for Sublime Text, [it is here](https://github.com/mhkeller/sublime-interview-syntax).
 
 Using [Markdown](http://dillinger.io/) as a jumping off point, Interview highlights whether certain parts of the conversation are on the record, on background or off the record.
 
